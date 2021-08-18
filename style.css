@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+body{
+    background-image: url(./images/Untitled-1\ copy.jpg);
+    height: 1160px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.hedr{
+    width: 1280px;
+    height: 100px;
+    background-color: #081f27;
+    color: white;
+    opacity: 0.6;
+}
+
+ .hedr ol li{
+    display: inline-block;
+}
+.hedr ol li{
+    float: left;
+}
+.hedr ol li h1 span{
+    font-size: 7px;
+}
+.hedr ol li h1 {
+    margin-left: 150px;
+    padding-top: 26px;
+}
+
+.hedr ol li a{ 
+    display: block;
+    color: white;
+    text-decoration: none;
+} 
+.hedr ol li a:hover{
+    background-color: #ff0072;
+    text-decoration: underline;
+}
+.active{
+    background-color: #ff0072;
+    width: 285px;
+    height: 100px;
+} 
+
+.padding{
+    padding: 40px 18px 42px 18px;
+}
+
+
+.discovr, .discovr1{
+    position: absolute;
+    left: 150px;
+}
+.discovr{
+    top: 310px;
+}
+.discovr1{
+    top: 620px;
+}
+.discovr h1, h2{
+    color: #042642;
+}
+.discovr h1{
+    font-size: 70px;
+}
+
+.discovr h2{
+    font-size: 35px;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: #042642;
+    float: left;
+    border-radius: 20px;
+    color: white;
+    margin-right: 2px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    cursor: pointer;
+}
+
+.discovr1 div:hover, .active1{
+    background-color: #ff0072;
+}
+.discovr ol li:hover{
+    background-color: #ff0072;
+}
+
+.footr{
+    width: 1280px;
+    height: 40px;
+    background-color: #081f27;
+    position: absolute;
+    top: 820px;
+    opacity: 0.8;
+    color: white;
+}
+
+.footr h4{
+    margin-left: 150px;
+    margin-top: 18px;
+    font-size: 12px;
+    float: left;
+}
+
+.float{
+    margin-left: 950px;
+    margin-top: 13px;
+}
+
+/* .footr div img{
+    margin-left: 650px;
+    margin-top: 13px;
+    float: left;
+} */
+
+
